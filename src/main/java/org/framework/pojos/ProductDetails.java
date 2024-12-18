@@ -1,11 +1,11 @@
-package org.framework.modules;
+package org.framework.pojos;
 
 import java.util.List;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class PayloadManager {
+public class ProductDetails {
 
     @SerializedName("title")
     @Expose
